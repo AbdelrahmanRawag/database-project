@@ -8,9 +8,9 @@
   # Overview
   taking about Veiwing result of queries 
   # Content
-    * **1**.Main.py
-    * **2**.Vagrant
-    * **3**.DataBase (newsdata.sql) https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
+  * .Main.py
+  * .Vagrant
+  * .DataBase (newsdata.sql) https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
 # Running the App
 To start the application wirte these queries to create these views:
   * 1-create view m_articles as select title , count (log.id) as koko from articles , log where status ='200 OK' and path like concat( concat ('%', slug),'%') group by title order by koko ;
