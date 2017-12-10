@@ -22,3 +22,10 @@ Run Main.py from Vagrant
   * vagrant ssh
   * python Main.py
   * path : http://localhost:8000/
+  
+Run Main.py from Vagrant
+  * vagrant Up
+  * vagrant ssh
+  * python Main.py
+  * path : http://localhost:8000/
+
