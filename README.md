@@ -23,9 +23,7 @@ Run Main.py from Vagrant
   * python Main.py
   * path : http://localhost:8000/
   
-Run Main.py from Vagrant
-  * vagrant Up
-  * vagrant ssh
-  * python Main.py
-  * path : http://localhost:8000/
-
+How to set up the database from newsdata.sql :
+  * cd (to newsdata.sql folder)
+  * psql -d news -f newsdata.sql
+  * psql news  
